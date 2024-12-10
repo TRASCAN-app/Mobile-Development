@@ -89,6 +89,9 @@ class CameraActivity : AppCompatActivity() {
         binding.buttonImageX.setOnClickListener {
             openGallery()
         }
+        binding.btnClose.setOnClickListener {
+            finish()
+        }
 
     }
     private fun reduceImageSize(uri: Uri): File {
