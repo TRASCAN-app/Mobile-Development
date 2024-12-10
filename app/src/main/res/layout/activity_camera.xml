@@ -6,13 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CameraActivity">
-    <ImageButton
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/btnClose"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_margin="16dp"
         android:background="@null"
         android:src="@drawable/ic_close"
+        app:tint="@color/ic_close_color"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
