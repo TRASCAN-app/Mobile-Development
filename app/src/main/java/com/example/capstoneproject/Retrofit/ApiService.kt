@@ -7,11 +7,11 @@ import retrofit2.Call
 import retrofit2.http.*
 
 interface ApiService {
-    @GET("articles")
+    @GET("/articles")
     fun getArticles(): Call<ResponseArticle>
 
     @Multipart
-    @POST("predict")
+    @POST("/predict")
     fun uploadImage(
         @Part image: MultipartBody.Part
     ):Call<ResponsePredict>

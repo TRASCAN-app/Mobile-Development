@@ -2,6 +2,7 @@
     <string name="app_name">TrashScan</string>
     <string name="button_camera">Camera</string>
     <string name="empty_text">hello blank</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_splash">TRASCAN</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_splash2">Waste\nClassification App</string>
 </resources>

@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <!-- Fragment untuk Maps -->
+   <!-- Fragment Maps -->
    <androidx.fragment.app.FragmentContainerView
        android:id="@+id/fragment_maps"
        android:layout_width="0dp"
@@ -19,7 +19,7 @@
        app:layout_constraintBottom_toTopOf="@+id/fragment_article"
        tools:layout="@layout/fragment_maps" />
 
-   <!-- Fragment untuk Article -->
+   <!-- Fragment Article -->
    <androidx.fragment.app.FragmentContainerView
        android:id="@+id/fragment_article"
        android:layout_width="0dp"
